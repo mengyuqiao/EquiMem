@@ -1,0 +1,30 @@
+# Core
+numpy>=1.24
+torch>=2.1
+transformers>=4.40
+sentence-transformers>=2.7
+
+# Memory architectures
+networkx>=3.2          # Graph memory (AriGraph, G-Memory)
+chromadb>=0.4          # Vector store backend
+
+# MAS frameworks
+pyautogen>=0.2         # AutoGen
+# MacNet and DyLAN are included as submodules
+
+# Benchmarks
+datasets>=2.18         # HuggingFace datasets (HotpotQA, LoCoMo)
+alfworld>=0.3          # ALFWorld environment
+webshop>=0.1           # WebShop environment
+
+# Baselines
+# (PPL Filter uses transformers, already listed)
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.65
+matplotlib>=3.8        # Plotting
+scipy>=1.11            # Statistical tests
+
+# LLM serving
+ollama>=0.2            # Ollama Python client

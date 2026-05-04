@@ -1,0 +1,30 @@
+# EquiMem Default Configuration
+
+# Agent settings
+agents:
+  n_agents: 6
+  backbone: "qwen3:8b"
+  max_new_tokens: 512
+  temperature: 0.7
+
+# Memory settings
+memory:
+  top_k: 5
+  embedding_model: "all-MiniLM-L6-v2"
+  embedding_dim: 384
+
+# Calibration settings
+calibration:
+  rho_star_method: "running_median"
+  rho_star_window: 100
+  cold_start_threshold: 0.5
+
+# Debate settings
+debate:
+  max_rounds: 5
+  contributor_rotation: "round_robin"
+
+# Evaluation
+evaluation:
+  n_runs: 5
+  n_tasks: 100

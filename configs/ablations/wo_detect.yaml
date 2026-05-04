@@ -1,0 +1,7 @@
+# Ablation: remove rho_detect
+# rho = rho_align only (no geometric/local density check)
+ablation:
+  name: wo_detect
+  disable_rho_detect: true
+  disable_rho_align: false
+  disable_reweighting: false

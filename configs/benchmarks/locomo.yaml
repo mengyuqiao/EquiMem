@@ -1,0 +1,7 @@
+# LoCoMo benchmark configuration
+benchmark:
+  name: locomo
+  dataset: "snap-research/locomo"
+  metric: f1
+  n_tasks: 100
+  qa_types: ["single_hop", "multi_hop", "temporal", "open_domain", "adversarial"]

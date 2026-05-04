@@ -1,0 +1,3 @@
+[submodule "vendor/GMemory"]
+	path = vendor/GMemory
+	url = https://github.com/bingreeky/GMemory.git

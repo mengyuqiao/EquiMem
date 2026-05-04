@@ -1,0 +1,7 @@
+# WebShop benchmark configuration
+benchmark:
+  name: webshop
+  metric: reward
+  n_tasks: 100
+  max_actions: 20
+  action_types: ["search", "choose"]

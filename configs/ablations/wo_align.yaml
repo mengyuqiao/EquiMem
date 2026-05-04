@@ -1,0 +1,7 @@
+# Ablation: remove rho_align
+# rho = rho_detect only (no retrieval disruption / reachability check)
+ablation:
+  name: wo_align
+  disable_rho_detect: false
+  disable_rho_align: true
+  disable_reweighting: false

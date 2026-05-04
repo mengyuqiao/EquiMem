@@ -1,0 +1,7 @@
+# Ablation: remove credibility reweighting
+# All auditors have w_i = 1.0 permanently
+ablation:
+  name: wo_reweight
+  disable_rho_detect: false
+  disable_rho_align: false
+  disable_reweighting: true

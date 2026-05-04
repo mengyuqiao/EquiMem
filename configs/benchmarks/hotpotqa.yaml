@@ -1,0 +1,8 @@
+# HotpotQA benchmark configuration
+benchmark:
+  name: hotpotqa
+  dataset: "hotpot_qa"
+  split: "distractor"
+  metric: accuracy
+  n_tasks: 100
+  context_truncation: 4000  # chars per query
