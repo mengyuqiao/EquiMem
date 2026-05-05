@@ -1,6 +1,5 @@
 # EquiMem: Zero-Trust Memory Calibration for Multi-Agent LLM Debate
 
-> **Anonymous repository for NeurIPS 2026 submission.**  
 > This codebase implements EquiMem, an inference-time memory calibration mechanism for shared-memory multi-agent debate systems. EquiMem adds zero token overhead and requires no LLM calls for calibration.
 
 ---
@@ -248,12 +247,6 @@ Experiments were conducted on:
 - **GPU**: NVIDIA RTX 6000 Ada Generation (49 GB VRAM) × 4
 - **LLM serving**: Ollama
 - **Calibration**: CPU-only (no GPU required for Φ)
-
-## Citation
-
-```
-Anonymous submission to NeurIPS 2026.
-```
 
 ## License
 
